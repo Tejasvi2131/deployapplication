@@ -2,37 +2,485 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  justify-content: center;
+   height: 30%;
+   width: 100%;
+   background-color:  #ffcba4;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header h1 {
+  font-size: 30px;
+  margin-left: 300px;
+}
+.logo {
+   padding-top: 10px;
+   padding-left: 60px;
+   padding-right: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+.logo button{
+  width: 130px;
+  height: 40px;
+  border: 10px;
+  border-radius: 30px;
+  background-color: rgb(228, 84, 84);
+}
+.midpart {
+    padding-top: 120px;
+    padding-right: 60%;
+}
+.midpart h1{
+  width: 100%;
+  font-size: 50px;
+}
+.midpart h2{
+  padding-right: 116px;
+  font-size: 50px;
+}
+.midpart h2 strong{
+  color: rgb(90, 156, 90);
+  font-size: 50px;
+}
+.midpart img{
+  width: 250px;
+  margin-left: -180px;
+}
+.endpart {
+  padding-top: 120px;
+  margin-right: -60px;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.crawlingtext{
+  padding-top: 10px;
+  width: 100%;
+  height: 30%;
+  background-color: rgb(34, 33, 33);
+  display: flex;
+  justify-content: space-between;
+}
+.crawlingtext h1{
+  font-size: 25px;
+  color: white;
+ 
+}
+.crawlingtext h1 strong{
+   color: orangered;
+}
+.crawlingtext h2{
+  font-size: 25px;
+  color: white;
+ }
+.crawlingtext h2 strong{
+      color: yellow;
+}
+.animation{
+  display: flex;
+  justify-content: space-between;
+  animation: moving 25s linear infinite;
+}
+@keyframes moving{
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX((-100%));
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.threecards{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  padding: 200px;
+}
+.card1{
+  background-color: rgb(12, 12, 53);
+  height: 410px;
+  border-radius: 30px;
+  z-index: 2;
   color: white;
 }
+.card2{
+  background-color: rgb(45, 146, 45);
+  height: 410px;
+  border-radius: 30px;
+  z-index: 1;
+  margin-top: -375px;
+}
+.card3{
+  background-color: #ffcba4;
+  height: 410px;
+  border-radius: 30px;
+  margin-top: -375px;
+}
+.card1 img{
+  width: 600px;
+  margin-left: 300px;
+  margin-top: -280px;
+}
+.card1 p {
+  padding-left: 60px;
+  padding-top: 100px;
+  width: 300px;
+  text-align: left;
+}
+.card1 button {
+  width: 130px;
+  height: 40px;
+  border: 4px solid white;
+  color: white;
+  margin-left: 100px;
+  border-radius: 30px;
+  background-color: rgb(228, 84, 84);
+}
+.card1 h1{
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.card2 h1{
+  margin-left: 20px;
+  padding-top: 355px;
+  padding-right: 790px;
+  color: white;
+}
+.card3 h1{
+  margin-left: 20px;
+  padding-right: 790px;
+  padding-top: 355px;
+  color: white;
+}
+.group1 {
+  margin-top: -150px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+.group2{
+  margin-left: 70px;
+  margin-top: -190px;
+}
+.group2 img{
+  width: 100px;
+  height: 100px;
+}
+.midarea{
+  margin-top: -200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 250px;
 
-.App-link {
-  color: #61dafb;
+}
+.area1{
+  width: 400px;
+  background-color: orangered;
+  border-radius: 30px;
+}
+.area1 h1{
+  width: 400px;
+  text-align: left;
+}
+.area1 h2{
+  text-align: left;
+}
+.area1 p{
+  width: 350px;
+  text-align: left;
+}
+.area1 img{
+  margin-left: 20px;
+}
+.area2{
+  width: 200px;
+  background-color: green;
+  border-radius: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.area3{
+  width: 200px;
+  background-color: blueviolet;
+  display:flex;
+  justify-content: flex-start;
+  border-radius: 30px;
 }
+.area3 h1{
+  transform: rotate(90deg);
+  margin-top: 90px;
+  margin-left: -230px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+.area2 h1{
+  transform: rotate(90deg);
+  margin-top: 240px;
+  margin-left: -50px;
+  padding-right: 30px;
+  font-size: 30px;
+}
+.midarea1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thirdarea {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 30px;
+}
+
+.thirdarea1 h1{
+  margin-left: 500px;
+  z-index: 1;
+}
+.imgstar{
+  margin-left: 490px;
+  padding-right: 90px;
+  margin-bottom: -200px;
+}
+.thirdarea1 img{
+  margin-bottom: -100px;
+}
+.thirdarea4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thirdarea2{
+  margin-top: 90px;
+  margin-left: 200px;
+  background-color: rgb(76, 190, 76);
+  width: 900px;
+  height: 40px;
+  z-index: 1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.thirdarea3{
+  width: 900px;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: -20px;
+  border-radius: 20px;
+  background-color: rgb(65, 170, 65);
+  display: flex;
+  justify-content: space-between;
+}
+.thirdarea31{
+  width: 400px;
+  height: 400px;
+  padding-top: 100px;
+  margin-left: 40px;
+}
+.thirdarea31 h1{
+  margin-left: 40px;
+}
+.thirdarea31 p{
+  width: 300px;
+  margin-left: 40px;
+  text-align: left;
+}
+.thirdarea32{
+  width: 300px;
+  height: 400px;
+  margin-right: 40px;
+}
+.thirdarea32 img{
+  width: 300px;
+  height: 300px;
+  margin-right: 70px;
+  margin-top: 70px;
+}
+.thirdarea31 button{
+  width: 130px;
+  height: 40px;
+  border: 4px solid white;
+  color: white;
+  margin-left: 40px;
+  border-radius: 30px;
+  background-color: rgb(228, 84, 84);
+}
+.fourtharea{
+  width: 1000px;
+  height: 400px;
+  background-color: rgb(20, 20, 59);
+  color: white;
+  margin-left: 200px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.fourtharea h1{
+  margin-left: 350px;
+  width: 400px;
+}
+.fourtharea p{
+  margin-left: 350px;
+  width: 300px;
+}
+.fourtharea button{
+  width: 130px;
+  height: 40px;
+  border: 4px solid white;
+  color: white;
+  margin-left: 350px;
+  border-radius: 30px;
+  background-color: rgb(228, 84, 84);
+}
+.side1{
+  width: 100px;
+  height: 100px;
+  margin-right: 800px;
+}
+.side1 img{
+  width: 100px;
+  height: 100px;
+}
+.side2{
+  width: 100px;
+  height: 100px;
+  margin-left: 900px;
+  margin-top: -100px;
+}
+.side2 img{
+  padding-right: 1px;
+  width: 100px;
+  height: 200px;
+}
+.side3{
+  width: 100px;
+  height: 100px;
+  margin-right: 900px;
+  margin-top: 30px;
+}
+.side3 img{
+  margin-top: -100px;
+  width: 250px;
+  height: 200px;
+}
+.side4{
+  width: 100px;
+  height: 100px;
+  margin-left: 900px;
+  margin-top: -100px;
+}
+.side4 img{
+  margin-left: -200px;
+  width: 300px;
+  height: 100px;
+}
+.signuppage{
+  width: 500px;
+  height: 500px;
+  background-color: #e6a777 ;
+  border-radius: 30px;
+}
+.signuppage h5{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.signuppage h1{
+  font-size: 30px;
+  margin-left: 70px;
+}
+.mb-3{
+  margin-top: 30px;
+  margin-left: 90px;
+  width: 300px;
+}
+.form button{
+  margin-left: 170px;
+  border: 3px solid white;
+}
+.fivtharea{
+  margin-top: 100px;
+  width: 100%;
+  height: 30%;
+  background-color: orange;
+  margin-bottom: 100px;
+  color: white;
+}
+.fivtharea h1{
+  padding-top: 100px;
+ margin-right: 500px;
+
+}
+.fivtharea h2{
+  margin-right: 600px;
+  margin-top: -30px;
+}
+.fivtharea h3{
+  margin-right: 800px;
+  padding-top: 30px;
+}
+.fivtharea h4{
+  margin-right: 730px;
+}
+.fivtharea img{
+  margin-right: 500px;
+  margin-top: -30px; 
+}
+.img{
+  margin-left: 450px;
+}
+.fivtharea button{
+  width: 130px;
+  height: 40px;
+  border: 4px solid white;
+  color: white;
+  margin-right: 910px;
+  border-radius: 30px;
+  background-color: rgb(228, 84, 84);
+  margin-top: 10px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer img{
+  width: 200px;
+  margin-left: 600px;
+}
+.footer button{
+  width: 170px;
+  height: 40px;
+  border: 4px solid rgb(224, 211, 211);
+  color: white;
+  margin-right: 910px;
+  border-radius: 30px;
+  background-color: rgb(228, 84, 84);
+  margin-top: 40px;
+  margin-left: 600px;
+}
+.footer p{
+  margin-left: 500px;
+}
+.img1{
+  display: flex;
+  justify-content: center;
+}
+.img2{
+  margin-left: 400px;
+}
+.img3{
+  margin-right: 400px;
+}
+.media{
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin-left: 630px;
+}
+.twit{
+  margin-right: -600px;
+  width: 80px;
+}
+.insta{
+  margin-right: -600px;
+
+}
+.link{
+  margin-right: 600px;
+  }
