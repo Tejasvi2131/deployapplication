@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/deployapplication/static/css/main.4d1bba16.css",
+    "main.js": "/deployapplication/static/js/main.72267c72.js",
+    "static/js/787.28cb0dcd.chunk.js": "/deployapplication/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Referral Offers@2x.png": "/deployapplication/static/media/Referral Offers@2x.f1961f88feaba4853841.png",
+    "static/media/Banner illustration01.png": "/deployapplication/static/media/Banner illustration01.1611a134f965759e260e.png",
+    "static/media/Asset 8.png": "/deployapplication/static/media/Asset 8.2e293503c8450d182c8e.png",
+    "static/media/Banner 2.png": "/deployapplication/static/media/Banner 2.e898ca49ca7ec2cfce2b.png",
+    "static/media/Illustration01.png": "/deployapplication/static/media/Illustration01.aae9b72c7118cc988219.png",
+    "static/media/Banner 3.png": "/deployapplication/static/media/Banner 3.dfc2514630dc0ab7f215.png",
+    "index.html": "/deployapplication/index.html",
+    "main.4d1bba16.css.map": "/deployapplication/static/css/main.4d1bba16.css.map",
+    "main.72267c72.js.map": "/deployapplication/static/js/main.72267c72.js.map",
+    "787.28cb0dcd.chunk.js.map": "/deployapplication/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d1bba16.css",
+    "static/js/main.72267c72.js"
+  ]
+}
